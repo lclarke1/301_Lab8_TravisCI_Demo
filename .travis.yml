@@ -28,7 +28,7 @@ android:
     - extra-android-support
     
     - android-22
-    #- sys-img-armeabi-v7a-android-22
+    - sys-img-armeabi-v7a-android-22
     - sys-img-$ANDROID_ABI-google_apis-$ANDROID_EMU_API_LEVEL
 
   licenses:
