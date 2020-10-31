@@ -69,7 +69,7 @@ public class CityList {
             }
         }
     }
-    */
+    */ 
 
     /**
      * Return the size of the city list
