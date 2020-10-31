@@ -7,7 +7,7 @@ env:
     - ANDROID_API_LEVEL=30
     - ANDROID_BUILD_TOOLS_VERSION=30.0.0
     - ANDROID_EMU_API_LEVEL=22
-    - ANDROID_ABI=armeabi-v7-a
+    - ANDROID_ABI=google_apis/armeabi-v7-a
     - QEMU_AUDIO_DRV=none
 
 android:
@@ -27,8 +27,9 @@ android:
     - extra-android-m2repository
     - extra-android-support
     
-    - android-22
-    - sys-img-armeabi-v7a-android-22
+    #- android-22
+    #- sys-img-armeabi-v7a-android-22
+    - sys-img-armeabi-v7a-android-$ANDROID_BUILD_TOOLS_VERSION
     #- sys-img-$ANDROID_ABI-google_apis-$ANDROID_EMU_API_LEVEL
 
   licenses:
