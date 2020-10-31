@@ -56,6 +56,7 @@ public class CityList {
      * @param city
      *      Candidate city to delete
      */
+    /*
     public void delete(City city) {
         if (!hasCity(city)) {
             throw new IllegalArgumentException();
@@ -68,13 +69,17 @@ public class CityList {
             }
         }
     }
+    */
 
     /**
      * Return the size of the city list
      * @return
      *      Size of city list
      */
+
     public int countCities() {
         return cities.size();
     }
+
+
 }
